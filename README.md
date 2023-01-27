@@ -1,5 +1,5 @@
 # Purpose
-The purpose of this app is to give a reproducible example of a bug in Detox, where .tap() function doesn't work on Android
+The purpose of this app is to give a reproducible example of a bug in Detox, where .tap() function doesn't work on Android Tiramisu (API 33)
 
 # Installation and run
 
@@ -10,7 +10,8 @@ yarn
 yarn build:debug
 yarn build:release
 
-# Change emulator name to whatever you're using
+# Change emulator avdName to whatever you're using
+# Make sure it's on Tiramisu (API 33)
 vi .detoxrc.js
 
 # One of the following
